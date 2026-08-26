@@ -39,12 +39,12 @@ namespace calculadora_basica
             this.btn2 = new System.Windows.Forms.Button();
             this.rdbsuma = new System.Windows.Forms.RadioButton();
             this.grbopciones = new System.Windows.Forms.GroupBox();
-            this.rdbresta = new System.Windows.Forms.RadioButton();
-            this.rdbdivi = new System.Windows.Forms.RadioButton();
-            this.rdbmulti = new System.Windows.Forms.RadioButton();
+            this.rdbfactrial = new System.Windows.Forms.RadioButton();
             this.rdbexpo = new System.Windows.Forms.RadioButton();
             this.rdbraiz = new System.Windows.Forms.RadioButton();
-            this.rdbfactrial = new System.Windows.Forms.RadioButton();
+            this.rdbdivi = new System.Windows.Forms.RadioButton();
+            this.rdbmulti = new System.Windows.Forms.RadioButton();
+            this.rdbresta = new System.Windows.Forms.RadioButton();
             this.cbonum1 = new System.Windows.Forms.ComboBox();
             this.lbl5 = new System.Windows.Forms.Label();
             this.grbopciones.SuspendLayout();
@@ -75,7 +75,7 @@ namespace calculadora_basica
             this.lblNum1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNum1.Location = new System.Drawing.Point(182, 97);
             this.lblNum1.Name = "lblNum1";
-            this.lblNum1.Size = new System.Drawing.Size(77, 27);
+            this.lblNum1.Size = new System.Drawing.Size(75, 26);
             this.lblNum1.TabIndex = 2;
             this.lblNum1.Text = "Num1:";
             // 
@@ -85,7 +85,7 @@ namespace calculadora_basica
             this.lblnum2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblnum2.Location = new System.Drawing.Point(182, 145);
             this.lblnum2.Name = "lblnum2";
-            this.lblnum2.Size = new System.Drawing.Size(77, 27);
+            this.lblnum2.Size = new System.Drawing.Size(75, 26);
             this.lblnum2.TabIndex = 3;
             this.lblnum2.Text = "Num2:";
             // 
@@ -103,7 +103,7 @@ namespace calculadora_basica
             this.lbl3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl3.Location = new System.Drawing.Point(182, 203);
             this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(122, 27);
+            this.lbl3.Size = new System.Drawing.Size(117, 26);
             this.lbl3.TabIndex = 5;
             this.lbl3.Text = "Respuesta: ";
             // 
@@ -113,7 +113,7 @@ namespace calculadora_basica
             this.lbl4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl4.Location = new System.Drawing.Point(297, 203);
             this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(22, 27);
+            this.lbl4.Size = new System.Drawing.Size(22, 26);
             this.lbl4.TabIndex = 6;
             this.lbl4.Text = "?";
             // 
@@ -134,7 +134,7 @@ namespace calculadora_basica
             this.rdbsuma.Checked = true;
             this.rdbsuma.Location = new System.Drawing.Point(6, 31);
             this.rdbsuma.Name = "rdbsuma";
-            this.rdbsuma.Size = new System.Drawing.Size(63, 21);
+            this.rdbsuma.Size = new System.Drawing.Size(61, 20);
             this.rdbsuma.TabIndex = 8;
             this.rdbsuma.TabStop = true;
             this.rdbsuma.Text = "suma";
@@ -157,42 +157,22 @@ namespace calculadora_basica
             this.grbopciones.Text = "Opciones ";
             this.grbopciones.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // rdbresta
+            // rdbfactrial
             // 
-            this.rdbresta.AutoSize = true;
-            this.rdbresta.Location = new System.Drawing.Point(6, 67);
-            this.rdbresta.Name = "rdbresta";
-            this.rdbresta.Size = new System.Drawing.Size(61, 21);
-            this.rdbresta.TabIndex = 9;
-            this.rdbresta.Text = "resta";
-            this.rdbresta.UseVisualStyleBackColor = true;
-            // 
-            // rdbdivi
-            // 
-            this.rdbdivi.AutoSize = true;
-            this.rdbdivi.Location = new System.Drawing.Point(6, 132);
-            this.rdbdivi.Name = "rdbdivi";
-            this.rdbdivi.Size = new System.Drawing.Size(76, 21);
-            this.rdbdivi.TabIndex = 11;
-            this.rdbdivi.Text = "division";
-            this.rdbdivi.UseVisualStyleBackColor = true;
-            // 
-            // rdbmulti
-            // 
-            this.rdbmulti.AutoSize = true;
-            this.rdbmulti.Location = new System.Drawing.Point(6, 96);
-            this.rdbmulti.Name = "rdbmulti";
-            this.rdbmulti.Size = new System.Drawing.Size(113, 21);
-            this.rdbmulti.TabIndex = 10;
-            this.rdbmulti.Text = "multiplicacion";
-            this.rdbmulti.UseVisualStyleBackColor = true;
+            this.rdbfactrial.AutoSize = true;
+            this.rdbfactrial.Location = new System.Drawing.Point(6, 213);
+            this.rdbfactrial.Name = "rdbfactrial";
+            this.rdbfactrial.Size = new System.Drawing.Size(75, 20);
+            this.rdbfactrial.TabIndex = 14;
+            this.rdbfactrial.Text = "factorial";
+            this.rdbfactrial.UseVisualStyleBackColor = true;
             // 
             // rdbexpo
             // 
             this.rdbexpo.AutoSize = true;
             this.rdbexpo.Location = new System.Drawing.Point(6, 159);
             this.rdbexpo.Name = "rdbexpo";
-            this.rdbexpo.Size = new System.Drawing.Size(99, 21);
+            this.rdbexpo.Size = new System.Drawing.Size(94, 20);
             this.rdbexpo.TabIndex = 13;
             this.rdbexpo.Text = "exponente ";
             this.rdbexpo.UseVisualStyleBackColor = true;
@@ -202,20 +182,40 @@ namespace calculadora_basica
             this.rdbraiz.AutoSize = true;
             this.rdbraiz.Location = new System.Drawing.Point(6, 186);
             this.rdbraiz.Name = "rdbraiz";
-            this.rdbraiz.Size = new System.Drawing.Size(52, 21);
+            this.rdbraiz.Size = new System.Drawing.Size(49, 20);
             this.rdbraiz.TabIndex = 12;
             this.rdbraiz.Text = "raiz";
             this.rdbraiz.UseVisualStyleBackColor = true;
             // 
-            // rdbfactrial
+            // rdbdivi
             // 
-            this.rdbfactrial.AutoSize = true;
-            this.rdbfactrial.Location = new System.Drawing.Point(6, 213);
-            this.rdbfactrial.Name = "rdbfactrial";
-            this.rdbfactrial.Size = new System.Drawing.Size(79, 21);
-            this.rdbfactrial.TabIndex = 14;
-            this.rdbfactrial.Text = "factorial";
-            this.rdbfactrial.UseVisualStyleBackColor = true;
+            this.rdbdivi.AutoSize = true;
+            this.rdbdivi.Location = new System.Drawing.Point(6, 132);
+            this.rdbdivi.Name = "rdbdivi";
+            this.rdbdivi.Size = new System.Drawing.Size(74, 20);
+            this.rdbdivi.TabIndex = 11;
+            this.rdbdivi.Text = "division";
+            this.rdbdivi.UseVisualStyleBackColor = true;
+            // 
+            // rdbmulti
+            // 
+            this.rdbmulti.AutoSize = true;
+            this.rdbmulti.Location = new System.Drawing.Point(6, 96);
+            this.rdbmulti.Name = "rdbmulti";
+            this.rdbmulti.Size = new System.Drawing.Size(109, 20);
+            this.rdbmulti.TabIndex = 10;
+            this.rdbmulti.Text = "multiplicacion";
+            this.rdbmulti.UseVisualStyleBackColor = true;
+            // 
+            // rdbresta
+            // 
+            this.rdbresta.AutoSize = true;
+            this.rdbresta.Location = new System.Drawing.Point(6, 67);
+            this.rdbresta.Name = "rdbresta";
+            this.rdbresta.Size = new System.Drawing.Size(58, 20);
+            this.rdbresta.TabIndex = 9;
+            this.rdbresta.Text = "resta";
+            this.rdbresta.UseVisualStyleBackColor = true;
             // 
             // cbonum1
             // 
@@ -240,7 +240,7 @@ namespace calculadora_basica
             this.lbl5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl5.Location = new System.Drawing.Point(312, 21);
             this.lbl5.Name = "lbl5";
-            this.lbl5.Size = new System.Drawing.Size(108, 27);
+            this.lbl5.Size = new System.Drawing.Size(106, 26);
             this.lbl5.TabIndex = 11;
             this.lbl5.Text = "Opciones:";
             // 
@@ -248,7 +248,7 @@ namespace calculadora_basica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1132, 450);
+            this.ClientSize = new System.Drawing.Size(1090, 458);
             this.Controls.Add(this.lbl5);
             this.Controls.Add(this.cbonum1);
             this.Controls.Add(this.grbopciones);
