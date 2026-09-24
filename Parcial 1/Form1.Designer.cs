@@ -17,7 +17,7 @@
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblNombreNegocio = new System.Windows.Forms.Label();
             this.txtNombreNegocio = new System.Windows.Forms.TextBox();
@@ -37,10 +37,10 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.lblTitulo.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.lblTitulo.Location = new System.Drawing.Point(30, 20);
+            this.lblTitulo.ForeColor = System.Drawing.Color.Black;
+            this.lblTitulo.Location = new System.Drawing.Point(83, 20);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(525, 32);
+            this.lblTitulo.Size = new System.Drawing.Size(524, 32);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "Impuesto a las Actividades Económicas (IAE)";
             // 
@@ -105,7 +105,7 @@
             // 
             this.lblImpuestoAPagar.AutoSize = true;
             this.lblImpuestoAPagar.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
-            this.lblImpuestoAPagar.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblImpuestoAPagar.ForeColor = System.Drawing.Color.Black;
             this.lblImpuestoAPagar.Location = new System.Drawing.Point(30, 200);
             this.lblImpuestoAPagar.Name = "lblImpuestoAPagar";
             this.lblImpuestoAPagar.Size = new System.Drawing.Size(203, 25);
@@ -125,10 +125,10 @@
             // 
             // btnCalcularImpuesto
             // 
-            this.btnCalcularImpuesto.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnCalcularImpuesto.BackColor = System.Drawing.Color.White;
             this.btnCalcularImpuesto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalcularImpuesto.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.btnCalcularImpuesto.ForeColor = System.Drawing.Color.White;
+            this.btnCalcularImpuesto.ForeColor = System.Drawing.Color.Black;
             this.btnCalcularImpuesto.Location = new System.Drawing.Point(230, 245);
             this.btnCalcularImpuesto.Name = "btnCalcularImpuesto";
             this.btnCalcularImpuesto.Size = new System.Drawing.Size(120, 42);
@@ -139,10 +139,10 @@
             // 
             // btnLimpiarImpuesto
             // 
-            this.btnLimpiarImpuesto.BackColor = System.Drawing.Color.IndianRed;
+            this.btnLimpiarImpuesto.BackColor = System.Drawing.Color.White;
             this.btnLimpiarImpuesto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpiarImpuesto.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.btnLimpiarImpuesto.ForeColor = System.Drawing.Color.White;
+            this.btnLimpiarImpuesto.ForeColor = System.Drawing.Color.Black;
             this.btnLimpiarImpuesto.Location = new System.Drawing.Point(370, 245);
             this.btnLimpiarImpuesto.Name = "btnLimpiarImpuesto";
             this.btnLimpiarImpuesto.Size = new System.Drawing.Size(120, 42);
@@ -155,14 +155,14 @@
             // 
             this.dgvResultados.BackgroundColor = System.Drawing.Color.White;
             this.dgvResultados.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkSlateBlue;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvResultados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkSlateBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvResultados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvResultados.ColumnHeadersHeight = 29;
             this.dgvResultados.Location = new System.Drawing.Point(30, 310);
             this.dgvResultados.Name = "dgvResultados";

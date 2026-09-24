@@ -17,6 +17,8 @@ namespace Parcial_1_conversor
 
         private void Parcial_1_Conversor_Load(object sender, EventArgs e)
         {
+            
+            
             CargarFactores();
             CargarUnidadesEnCombos();
             ConfigurarHistorial();
